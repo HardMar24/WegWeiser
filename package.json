@@ -1,0 +1,20 @@
+{
+  "name": "weg-weiser-htw-saar",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "embla-carousel": "^8.5.1",
+    "embla-carousel-autoplay": "^8.5.1",
+    "embla-carousel-class-names": "^8.5.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@iconify-json/material-symbols": "^1.2.10",
+    "vite": "^6.0.3"
+  }
+}
