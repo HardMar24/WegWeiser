@@ -77,7 +77,16 @@ nav a:hover {
     align-items: stretch;
     justify-items: stretch;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     column-gap: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .map__wrapper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 0;
+    }
 }
 .map__container {
     height: 100%;

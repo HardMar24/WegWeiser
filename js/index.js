@@ -26,6 +26,9 @@ import { addPrevNextBtnsClickHandlers } from './EmblaCarouselArrowButtons'
 import './ColorMode'
 
 import '../css/index.css'
+import '/node_modules/primeflex/primeflex.css'
+import 'primeflex/themes/primeone-light.css'
+import 'primeflex/themes/primeone-dark.css'
 
 const OPTIONS = {}
 
