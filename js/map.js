@@ -1,4 +1,5 @@
 import L from 'leaflet'
+import 'leaflet-routing-machine'
 
 const map = L.map('campus-map').setView([49.243452155683876, 7.015322530121894], 17);
 
