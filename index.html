@@ -2,7 +2,7 @@
 <html lang="de" class="theme-light">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>HTW Saar Campus-Wegweiser</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
     <!-- <link rel="stylesheet" href="css/index.css"> -->
@@ -129,10 +129,9 @@
                 target="_blank"
             >Termin buchen</a>
         </div>
-        <div>
+        <div class="relative md:static overflow-hidden md:overflow-auto w-full md:h-auto bg-red-200">
             <iframe
-                width="560"
-                height="315"
+              class="absolute md:static w-full md:h-auto left-0 right-0 top-0"
                 src="https://www.youtube.com/embed/zLOsksQYCkc?si=1EXXJP9AJciju-Ri"
                 title="YouTube video player"
                 frameborder="0"

@@ -87,11 +87,15 @@ nav a:hover {
         grid-template-rows: 1fr 1fr;
         row-gap: 0;
     }
+    .weg-weiser {
+        max-width: 100vw;
+    }
 }
 .map__container {
     height: 100%;
     padding-bottom: 18rem;
 }
+
 
 /* BUTTON */
 .button {
@@ -108,10 +112,12 @@ nav a:hover {
 
 /* BOOKING & YOUTUBE SECTION */
 .booking-yt {
+    min-height: 44rem;
     display: flex;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    justify-items: stretch;
     flex-wrap: wrap;
     padding-top: 14rem;
     padding-bottom: 14rem;
