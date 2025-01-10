@@ -16,6 +16,9 @@ export default defineConfig({
   css: [
     'primeflex/themes/primeone-dark.css',
     'primeflex/themes/primeone-light.css',
-    'primeflex/primeflex.css'
+    'primeflex/primeflex.css',
+    'leaflet-routing-machine/dist/leaflet-routing-machine.css',
+    'leaflet/dist/leaflet.css',
+    'leaflet-routing-machine.css',
   ]
 });

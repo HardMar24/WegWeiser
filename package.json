@@ -13,6 +13,8 @@
     "embla-carousel": "^8.5.1",
     "embla-carousel-autoplay": "^8.5.1",
     "embla-carousel-class-names": "^8.5.1",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
     "parcel-bundler": "^1.12.5",
     "primeflex": "^3.3.1"
   },

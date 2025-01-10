@@ -1,30 +1,14 @@
-// import EmblaCarousel from 'embla-carousel'
-// import Autoplay from 'embla-carousel-autoplay'
+// map.js (Leaflet)
+import './map'
 
-// const emblaNode = document.querySelector('.embla')
-// const options = { loop: false }
-// const plugins = [Autoplay()]
-// const emblaApi = EmblaCarousel(emblaNode, options, plugins)
-
-// console.log("dhfidfojn")
-// console.log(emblaApi.slideNodes()) // Access API
-
-// const heroImages = [
-//     'aula.jpg',
-//     'aula2.jpg',
-//     'aula3.jpg',
-//     'aussen.jpg',
-//     'mensa.jpg',
-//     'mensa2.jpeg',
-//     'bibliotheke.jpg',
-// ]
-
+// Carousel
 import EmblaCarousel from 'embla-carousel'
 import ClassNames from 'embla-carousel-class-names'
 import { addDotBtnsAndClickHandlers } from './EmblaCarouselDotButton'
 import { addPrevNextBtnsClickHandlers } from './EmblaCarouselArrowButtons'
 import './ColorMode'
 
+// CSS
 import '../css/index.css'
 import '/node_modules/primeflex/primeflex.css'
 import 'primeflex/themes/primeone-light.css'
