@@ -2,7 +2,7 @@
 
 Entwickelt von:
 - Marlene Kengue
-- xyz
+- Hardy Gräber
 
 > Project description
 
