@@ -6,7 +6,9 @@ Entwickelt von:
 
 > Project description
 
-description of the task
+Die Erstellung einer benutzerfreundlichen Website auf Github Pages, die 
+Besuchern des HTW Saar Campus Rotenbühl als Orientierungshilfe dient, um 
+Standorte wie die Mensa und Druckerräume leicht zu finden
 
 ## Technologies used
 
